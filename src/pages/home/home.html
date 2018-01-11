@@ -1,14 +1,17 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
+  <ion-navbar  setBackButtonText="helele">
+    <ion-title color="primary">
+      PROKAR CRM
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+    <ion-buttons end>
+      <button icon-start navPush="CustomerListPage" ion-button>
+        <ion-icon name="ios-people"></ion-icon>
+      </button>
+    </ion-buttons>
+
 </ion-content>
